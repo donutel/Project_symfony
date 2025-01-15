@@ -1,11 +1,3 @@
-Here's the **README.md** content ready to be pasted directly into your **`readme.md`** file:
-
----
-
-```md
-# **Portfolio Personnel - Étudiante en Réseaux & Cybersécurité**  
-[![Build Status](https://drone.mikebgdev.com/api/badges/donutel/Portfolio-Symfony/status.svg?ref=refs/heads/main)](https://drone.mikebgdev.com/donutel/Portfolio-Symfony)
-
 ## **Description**
 
 Ce projet Symfony sert de portfolio personnel mettant en avant mes compétences, projets et expériences en tant qu'**étudiante en Réseaux & Cybersécurité**. Le portfolio a été conçu pour offrir aux visiteurs un aperçu de mon expertise technique, de mon parcours professionnel et des projets auxquels j'ai participé.
@@ -34,57 +26,35 @@ Ce projet Symfony sert de portfolio personnel mettant en avant mes compétences,
 
    ```bash
    git clone https://github.com/donutel/Portfolio-Symfony.git
-   ```
+Installez les dépendances PHP :
 
-2. Installez les dépendances PHP :
+bash
+Copy code
+composer install
+Installez les dépendances JavaScript et CSS :
 
-   ```bash
-   composer install
-   ```
+bash
+Copy code
+npm install
+Compilez les assets :
 
-3. Installez les dépendances JavaScript et CSS :
+bash
+Copy code
+npm run build
+Lancez le serveur Symfony :
 
-   ```bash
-   npm install
-   ```
-
-4. Compilez les assets :
-
-   ```bash
-   npm run build
-   ```
-
-5. Lancez le serveur Symfony :
-
-   ```bash
-   symfony server:start
-   ```
-
-## **Utilisation**
-
-- Mettez à jour le contenu dans le répertoire **`templates`** pour personnaliser le portfolio.  
-- Ajoutez vos projets dans **`templates/sections/portfolio.html.twig`**.  
-- Personnalisez le style dans **`assets/styles`** selon vos préférences.
-
-## **Contribuer**
-
+bash
+Copy code
+symfony server:start
+Utilisation
+Mettez à jour le contenu dans le répertoire templates pour personnaliser le portfolio.
+Ajoutez vos projets dans templates/sections/portfolio.html.twig.
+Personnalisez le style dans assets/styles selon vos préférences.
+Contribuer
 N'hésitez pas à contribuer au projet en ouvrant des issues ou en soumettant des pull requests. Vos retours et suggestions sont les bienvenus.
 
-## **Licence**
+Licence
+Ce projet est sous licence MIT License.
 
-Ce projet est sous licence [MIT License](LICENSE.md).
-
-## **Contact**
-
-Pour toute demande de collaboration ou question, contactez-moi via le formulaire de contact sur le portfolio ou par email à [lakhrkawthar@gmail.com](mailto:lakhrkawthar@gmail.com).
-```
-
----
-
-### ✅ **Steps to Add It to Your Project:**
-1. Copy the entire content above.
-2. Open your **`readme.md`** file in VS Code or any text editor.
-3. Paste the content into the file.
-4. Save the file.
-
-Let me know if you need any more help! 😊
+Contact
+Pour toute demande de collaboration ou question, contactez-moi via le formulaire de contact sur le portfolio ou par email à lakhrkawthar@gmail.com.
