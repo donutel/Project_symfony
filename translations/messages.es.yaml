@@ -1,0 +1,81 @@
+header:
+    home: "Accueil"
+    about: "À Propos"
+    skills: "Compétences"
+    portfolio: "Projets"
+    experience: "Expérience"
+    education: "Éducation"
+    contact: "Contact"
+    switch: "Changer le Thème"
+
+hero:
+    h6: "Bonjour, je suis"
+    h2:
+        items:
+            1: "Étudiant en Réseaux et Télécommunications"
+            2: "Développeur Web"
+
+about:
+    h2: "À Propos de Moi"
+    p1: "Passionné par la cybersécurité et spécialisé en sécurité offensive, je suis un étudiant en réseaux et cybersécurité avec une expertise en tests d'intrusion et en analyse de trafic."
+    p2: "Curieux et rigoureux, je combine mes compétences techniques avec une approche stratégique pour identifier et exploiter les vulnérabilités des systèmes."
+    p3: "Polyglotte et autodidacte, j'aspire à exceller dans le domaine de la cybersécurité et à laisser ma marque en tant qu'expert reconnu."
+
+skills:
+    h2: "Compétences Techniques"
+    web:
+        h3: "Développement Web"
+    server:
+        h3: "Infrastructure et Serveurs"
+    service:
+        h3: "Outils et Services"
+    learn:
+        h3: "En Cours d'Apprentissage"
+
+    
+    soft:
+        h2: "Compétences Interpersonnelles"
+        teamwork: "Travail d'Équipe et Collaboration"
+        adaptability: "Adaptabilité et Apprentissage Continu"
+        organization: "Organisation et Responsabilité"
+        focus: "Focus sur la Qualité et l'Amélioration Continue"
+        decision: "Prise de Décisions"
+        problems: "Résolution de Problèmes"
+        results: "Orientation Résultats"
+
+projects:
+    h2: "Projets"
+    project1:
+        p: "Mon portfolio créé avec le framework Symfony"
+    project2:
+        p: "Configuration Docker pour utiliser des projets Symfony"
+
+experience:
+    title: "Expérience Professionnelle"
+    date_1: "Février 2023 - Juillet 2023"
+    job_title_1: "Développeur Web"
+    job_description_1: "Développement du site web de Retic avec WordPress. Personnalisation de thèmes et intégration de plugins pour répondre aux besoins spécifiques de l'entreprise. Optimisation de l'interface utilisateur pour garantir une navigation fluide et un design réactif sur tous les appareils."
+    company_1: "Retic"
+    location_1: "Casablanca, Maroc"
+
+    date_2: "Décembre 2021 - Mai 2022"
+    job_title_2: "Stagiaire en Cybersécurité"
+    job_description_2: "Stage de six mois en cybersécurité, utilisant des outils comme Nessus et Burp Suite pour analyser et gérer les vulnérabilités. Renforcement des compétences techniques et de la capacité à résoudre des défis complexes au sein d'une équipe."
+    company_2: "Panther"
+    location_2: "Maroc"
+
+    date_3: "Janvier 2022 - Décembre 2024"
+    job_title_3: "Chef d'Équipe (Freelance)"
+    job_description_3: "Supervision d'une équipe chargée de la gestion des données, de la création de sites web et de l'analyse des données. Agir en tant qu'intermédiaire entre les clients et les membres de l'équipe pour assurer une communication efficace, une livraison rapide des projets et la satisfaction des clients."
+    company_3: "Freelance"
+    location_3: "Télétravail"
+
+education:
+    title: "Éducation"
+    date_1: "Septembre 2024 - Présent"
+    degree_1: "Licence en Réseaux et Télécommunications"
+    institution_1: "IUT"
+
+    date_2: "Septembre 2022 - Juin 2024"
+    degree_2: "DEUG en Économie et Gestion"
+    institution_2: "Université Ibn Zohr"

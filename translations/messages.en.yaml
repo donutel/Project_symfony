@@ -1,0 +1,124 @@
+header:
+    home: "Home"
+    about: "About Me"
+    skills: "Skills"
+    portfolio: "Projects"
+    experience: "Experience"
+    education: "Education"
+    contact: "Contact"
+    switch: "Switch Theme"
+
+hero:
+    h6: "Hello, I am"
+    h2:
+        items:
+            1: "Network and Telecommunications Student"
+            2: "Cybersecurity Enthusiast"
+
+about:
+    h2: "About Me"
+    p1: "Passionate about cybersecurity and specialized in offensive security, I am a network and cybersecurity student with expertise in penetration testing and traffic analysis. Curious and rigorous, I combine my technical skills with a strategic approach to identify and exploit system vulnerabilities. A polyglot and self-learner, I aspire to excel in the field of cybersecurity and make my mark as a recognized expert."
+    contact: "Contact Me"
+    me:
+        name: "Name"
+        age: "Age"
+        age_data: "years old"
+        email: "Email"
+        location: "Location"
+        nationality: "Nationality"
+        nationality_data: "Moroccan"
+
+skills:
+    h2: "Technical Skills"
+    web:
+        h3: "Web Development"
+    server:
+        h3: "Infrastructure and Servers"
+    service:
+        h3: "Tools and Services"
+    learn:
+        h3: "Currently Learning"
+
+    soft:
+        h2: "Interpersonal Skills"
+        teamwork: "Teamwork & Collaboration"
+        adaptability: "Adaptability & Continuous Learning"
+        organization: "Organization & Responsibility"
+        focus: "Quality Focus & Continuous Improvement"
+        decision: "Decision-Making"
+        problems: "Problem Solving"
+        results: "Results-Oriented"
+
+projects:
+    h2: "Projects"
+    project1:
+        p: "My portfolio created using the Symfony framework"
+    project2:
+        p: "Docker configuration for Symfony projects"
+    project3:
+        p: "ALX Pre Course repository, showcasing my journey in Full-Stack Engineering"
+    project4:
+        p: "ALX Zero Day repository focused on shell scripting"
+    project5:
+        p: "System Engineering and DevOps concepts applied with ALX"
+    project6:
+        p: "Low-Level Programming in C language with ALX"
+    project7:
+        p: "SAE 105 project focused on real-world problem solving"
+    project8:
+        p: "Kawtar Lakhr personal portfolio"
+
+experience:
+    title: "Work Experience"
+    date_1: "February 2023 - July 2023"
+    job_title_1: "Web Developer"
+    job_description_1: "Developed the website for Retic using WordPress. Customized themes and integrated plugins to meet the company's specific needs. Focused on optimizing the user interface to ensure smooth navigation and responsive design across all devices."
+    company_1: "Retic"
+    location_1: "Casablanca, Morocco"
+
+    date_2: "December 2021 - May 2022"
+    job_title_2: "Cybersecurity Intern"
+    job_description_2: "Completed a six-month internship in cybersecurity, using tools like Nessus and Burp Suite to analyze and manage vulnerabilities. Strengthened technical skills and the ability to solve complex challenges within a team environment."
+    company_2: "Panther"
+    location_2: "Morocco"
+
+    date_3: "January 2022 - December 2024"
+    job_title_3: "Team Manager (Freelance)"
+    job_description_3: "Supervised a team responsible for data management, website creation, and data analysis. Acted as an intermediary between clients and team members to ensure effective communication, timely project delivery, and client satisfaction."
+    company_3: "Freelance"
+    location_3: "Remote"
+
+education:
+    title: "Education"
+    date_1: "September 2024 - Present"
+    degree_1: "Bachelor of Networks and Telecommunications"
+    institution_1: "IUT"
+
+    date_2: "September 2022 - June 2024"
+    degree_2: "DEUG in Economics and Management"
+    institution_2: "Université Ibn Zohr"
+
+contact:
+    h2: "Contact"
+    form:
+        name: "Full Name"
+        email: "Email"
+        subject: "Subject"
+        message: "Message"
+        send: "Send Message"
+    social: "Social Networks"
+    cv: "Download CV"
+
+    modal:
+        h5: "Submission Result"
+        close: "Close"
+
+footer:
+    copyrights: "All rights reserved."
+    designed: "Designed and developed by"
+
+uparrow: "Back to Top"
+
+email:
+    sent_successfully: "Email sent successfully!"
+    send_error: "Error sending the email. Please try again."

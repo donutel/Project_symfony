@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ app.request.locale }}">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0DTEWPJT8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-G0DTEWPJT8');
+  </script>
+
+  {% include 'includes/metas.html.twig' %}
+
+  {% block stylesheets %}
+    {{ encore_entry_link_tags('app') }}
+  {% endblock %}
+
+  {% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+  {% endblock %}
+</head>
+<body>
+
+{% include 'includes/header.html.twig' %}
+
+<main id="main">
+  {% block main %}
+
+    {% include 'sections/hero.html.twig' %}
+
+    {% include 'sections/about.html.twig' %}
+
+    {% include 'sections/skills.html.twig' %}
+
+    {% include 'sections/skills-softs.html.twig' %}
+
+    {% include 'sections/projects.html.twig' %}
+
+    {% include 'sections/experience.html.twig' %}
+
+    {% include 'sections/education.html.twig' %}
+
+    {% include 'sections/contact.html.twig' %}
+
+  {% endblock %}
+</main>
+
+{% include 'includes/footer.html.twig' %}
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"
+   title="{{ 'uparrow'|trans }}">
+  <svg width="24" height="24">
+    <use xlink:href="#uparrow"></use>
+  </svg>
+</a>
+
+{% include "includes/icons.html.twig" %}
+
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+        data-cf-beacon='{"token": "368730df875e4a898313bc7231c2d1cd"}'></script>
+</body>
+</html>

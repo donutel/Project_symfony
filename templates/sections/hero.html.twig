@@ -1,0 +1,22 @@
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+  <div class="hero-container" data-aos="fade-in">
+    <div>Salut je m'appelle
+    </div>
+    <h1>Kawtar Lakhr</h1>
+    <h2>
+      {% set strings = [
+        'hero.h2.items.1'|trans,
+        'hero.h2.items.2'|trans
+      ] %}
+      <span {{ stimulus_controller('symfony/ux-typed', {
+        strings: strings,
+        smartBackspace: false,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000,
+        loop: true,
+        showCursor: true
+      }) }}></span>
+    </h2>
+  </div>
+</section>

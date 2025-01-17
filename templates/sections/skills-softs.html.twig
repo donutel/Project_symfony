@@ -1,0 +1,32 @@
+<section id="skills_soft" class="skills_soft">
+  <div class="container">
+    <div class="p-mb-5 pe-3 ps-3 pb-5 pt-5" id="soft-skills">
+      <h2 class="text-body-emphasis">Compétences Interpersonnelles</h2>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        {% set softSkills = [
+          {'icon': 'teamwork', 'label': 'Travail d’Équipe et Collaboration'},
+          {'icon': 'adaptability', 'label': 'Adaptabilité et Apprentissage Continu'},
+          {'icon': 'organization', 'label': 'Organisation et Responsabilité'},
+          {'icon': 'focus', 'label': 'Focus sur la Qualité et l’Amélioration Continue'},
+          {'icon': 'decision', 'label': 'Prise de Décisions'},
+          {'icon': 'problems', 'label': 'Résolution de Problèmes'},
+          {'icon': 'results', 'label': 'Orientation Résultats'}
+        ] %}
+
+        {% for skill in softSkills %}
+          <div class="col d-flex align-items-start">
+            <div>
+              <h3 class="fw-bold mb-0 fs-4">
+                <svg width="32" height="32">
+                  <use xlink:href="#{{ skill.icon }}"></use>
+                </svg>
+                {{ skill.label }}
+              </h3>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
