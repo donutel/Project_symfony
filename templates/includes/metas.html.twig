@@ -1,0 +1,29 @@
+{% set title = "Kawtar Lakhr - Portfolio" %}
+{% set description = "Bienvenue sur mon portfolio en ligne ! Je suis Kawtar Lakhr, une experte en cybersécurité, développement web et gestion de projets." %}
+{% set author = "kawtar_lakhr" %}
+
+<meta charset="UTF-8">
+<meta lang="{{ app.request.locale }}">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="dark"/>
+
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<meta name="author" content="{{ author }}">
+<link rel="canonical" href="{{ url(app.current_route) }}">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ url(app.current_route) }}">
+<meta property="og:image" content="{{ asset('build/images/portfolio.webp') }}">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@kawtar_lakhr">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{ description }}">
+<meta name="twitter:image" content="{{ asset('build/images/portfolio.webp') }}">
+
+<link rel="icon" href="{{ asset('build/images/logo_icon.webp') }}"/>
+<link rel="preload" as="image" href="{{ asset('build/images/hero-bg-1920x1080.webp') }}">

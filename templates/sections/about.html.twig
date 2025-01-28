@@ -1,0 +1,41 @@
+<section id="about" class="about py-5">
+  <div class="container">
+    <div class="row p-3">
+      <!-- Profile Picture Section -->
+      <div class="col-md-4">
+        <img loading="lazy" src="{{ asset('images/pic.jpg') }}" width="600px" height="600px" class="img-fluid rounded-circle mb-4" alt="Kawtar Lakhr">
+      </div>
+
+      <!-- About Me Section -->
+      <div class="col-md-8">
+        <h2 class="text-body-emphasis mb-4">About Me
+        </h2>
+
+        <p class="mb-4">
+          Passionnée par la cybersécurité et spécialisée en sécurité offensive, je suis une étudiante en réseaux et cybersécurité avec une expertise en tests d'intrusion et en analyse de trafic.
+        </p>
+
+        <p class="mb-4">
+          Curieuse et rigoureuse, je combine mes compétences techniques avec une approche stratégique pour identifier et exploiter les vulnérabilités des systèmes. Polyglotte et autodidacte, j'aspire à exceller dans le domaine de la cybersécurité et à laisser ma marque en tant qu'experte reconnue.
+        </p>
+
+        <!-- Personal Information Section -->
+        <p class="mb-4"><strong>Nom Complet:</strong> Kawtar Lakhr</p>
+        <p class="mb-4"><strong>Âge:</strong> 21 ans</p>
+        <p class="mb-4"><strong>Email:</strong> lakhrkawthar@gmail.com</p>
+
+        <!-- Buttons for Contact and CV Download -->
+        <a href="#contact" class="btn btn-primary btn-lg me-2">Contact</a>
+
+        <a href="{{ asset('/downloads/cv.pdf') }}" target="_blank" class="btn btn-outline-primary btn-lg">
+          <span>
+            <svg width="16" height="16">
+              <use xlink:href="#download"></use>
+            </svg>
+          </span>
+          Mon CV
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
